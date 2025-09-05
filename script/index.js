@@ -156,7 +156,7 @@ const wordFunction = (elements) => {
             <p class="py-5 text-[16px] text-[#000000]">Meaning /Pronounciation</p>
             <h3 class="text-[25px] font-semibold pb-10">"${element.meaning ? element.meaning : "অর্থ পাওয়া যায় নি"
             } / ${element.pronunciation ? element.pronunciation : "Pronounciation পাওয়া যায় নি"}"</h3 >
-        <div class="flex justify-between w-11/12 mx-auto gap-30">
+        <div class="flex justify-between w-11/12 mx-auto gap-15 md:gap-30">
             <button onclick="wordButtonDetail(${element.id})"><i
                 class="fa-solid fa-info bg-[#1a91ff1a] hover:bg-[#1A91FF] py-5   px-6 pr-8 rounded-[8px] flex justify-center items-center"></i></button>
             <button onclick="pronounceWord('${element.word}')"><i class="fa-solid fa-volume-high bg-[#1a91ff1a] hover:bg-[#1A91FF] px-5 py-5 pr-10 rounded-[8px] "></i></button>
